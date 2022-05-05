@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OptimusTech</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- =================== MENU =======================-->
+    <nav>
+        <div class="logo">
+            <img src="img/worldwide 1 (Traced).png">
+            <h1>OptimusTech</h1>
+        </div>
+        <div class="conteudo">
+            <div class="menu">
+                <ul>
+                    <li><a href="#"> Home </a></li>
+                    <li><a href="#"> Produtos </a></li>
+                    <li><a href="#"> Recursos </a></li>
+                    <li><a href="#"> Sobre nós </a></li>
+                </ul>
+            </div>
+            <div class="botoes">
+                <button class="btn btn-branco"> Entrar </button>
+                <button class="btn btn-vermelho"> Cadastrar </button>
+            </div>
+        </div>
+        <div class="conteudo-celular">
+            <a id="toggle"><i class="bi bi-grid-fill"></i></a>
+        </div>
+        <div id="menu" class="menu-celular">
+            <ul>
+                <li><a href="#"> Home </a></li>
+                <li><a href="#"> Produtos </a></li>
+                <li><a href="#"> Recursos </a></li>
+                <li><a href="#"> Sobre nós </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ======================== CABECALHO ==================================-->
+    <header class="cabecalho">
+        <h3 class="titulo"> Sobre nós</h3>
+        <h1>Por que somos diferentes?</h1>
+        <div class="apoio">
+            <p>Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo o mundo a se concentrarem naquilo que é realmente importante para elas.</p>
+        </div>
+    </header>
+
+    <!-- =============================== MÉTRICAS ==============================-->
+    <section class="metricas">
+        <div class="container">
+            <div class="metrica">
+                <h3>400+</h3>
+                <h4><strong>Projetos Concluídos</strong></h4>
+                <p>Nós ajudamos a construir mais de 400 projetos incríveis</p>
+            </div>
+            <div class="metrica">
+                <h3>100+</h3>
+                <h4><strong>Colaboradores</strong></h4>
+                <p>Temos mais de 100 colaboradores no nosso time que se preocupam com nossos clientes.</p>
+            </div>
+            <div class="metrica">
+                <h3>20k</h3>
+                <h4><strong>Dowloads</strong></h4>
+                <p>Nossos projetos que estão disponíveis em lojas já foram baixados mais de 20.000 vezes.</p>
+            </div>
+            <div class="metrica">
+                <h3>500+</h3>
+                <h4><strong>Reviews 5 estrelas</strong></h4>
+                <p>Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em nossos produtos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================= VAGAS ABERTAS =======================================-->
+    <section class="vagas">
+        <div class="texto">
+            <h3 class="titulo"> Vagas abertas </h3>
+            <h1> Estamos procurando por talentos </h1>
+            <p> Somos uma equipe 100% remota com pessoas do Brasil inteiro</p>
+        </div>
+        <div class="img">
+            <img src="img/Image.png">
+        </div>
+        <div class="dados">
+            <div class="bloco">
+                <h5>Design</h5>
+                <div class="bloco-filho">
+                    <h6>Product Designer</h6>
+                    <p> Full-Time   Faixa Salarial: R$7.000</p>
+                </div>
+                <div class="bloco-filho">
+                    <h6>UX Designer</h6>
+                    <p> Full-Time   Faixa Salarial: R$6.000</p>
+                </div>
+            </div>
+            <div class="bloco">
+                <h5>Desenvolvimento de Software</h5>
+                <div class="bloco-filho">
+                    <h6>Desenvolvedor(a) iOS</h6>
+                    <p> Full-Time   Faixa Salarial: R$8.000</p>
+                </div>
+                <div class="bloco-filho">
+                    <h6>Desenvolvedor(a) Front-end</h6>
+                    <p> Full-Time   Faixa Salarial: R$7.000</p>
+                </div>
+                <div class="bloco-filho">
+                    <h6>Desenvolvedor(a) Back-end</h6>
+                    <p> Full-Time   Faixa Salarial: R$8.000</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--============================= DEPOIMENTOS =========================-->
+    <section class="depoimentos">
+        <div class="container">
+            <h3 class="titulo"> Veja o que nossos colaboradores falam sobre nós </h3>
+            <h1>OptimusTech se importa com a saúde dos seus colaboradores e sempre procura nos dar todo tipo de auxílio possível.</h1>
+            <img src="img/Avatar.png">
+            <h5>Júlia Castro</h5>
+            <p>Desenvolvedora Web</p>
+        </div>
+    </section>
+
+    <!-- ============================== FORMULÁRIO =============================-->
+    <section class="form">
+        <h1> Acompanhe as nossas oportunidades</h1>
+        <p>Seja o primeiro a saber quando novas vagas serão abertas</p>
+        <div class="campos">
+            <input type="text" placeholder="Seu e-mail">
+            <button class="btn btn-vermelho"> Cadastrar </button>
+        </div>
+        <p class="copy">© 2022 OptimusTech. Todos os direitos reservados.</p>
+    </section>
+
+    <script>
+        const btn = document.getElementById('toggle')
+        var menu = document.getElementById('menu')
+
+        btn.addEventListener('click', function(){
+            menu.classList.toggle('ativo')
+        })
+    </script>
+</body>
+</html>
